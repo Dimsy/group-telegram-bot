@@ -6,7 +6,7 @@ const { paymentHandler } = require('./utils')
 const { startInfoMessage } = require("./consts");
 
 bot.use(Telegraf.log())
-
+console.log('test');
 
 bot.start(async (ctx) => {
 
